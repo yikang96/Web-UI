@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: rgb(192, 1, 199);
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 20px;
+}
+
+nav {
+    opacity: .90;
+}
+
+.navbar {
+    padding: 0 5px;
+}
+
+section {
+    padding: 90px 0;
+}
+
+.parallax {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-bg {
+    background: linear-gradient( rgba(5, 227, 243, 0.12), rgba(192, 1, 199, 0.3)), url('https://images.unsplash.com/photo-1515080797068-528074601098?ixlib=rb-0.3.5&s=3ad5888d7c657775765316e0e338709e&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* IMAGES */
+
+#nav-logo {
+    width: 50px;
+}
+
+.img-cropper {
+    min-width: 300px;
+    min-height: 300px;
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    background: linear-gradient( rgba(5, 227, 243, 0.12), rgba(192, 1, 199, 0.3)), url('https://images.collegiatelink.net/clink/images/5aa192c7-ceb1-450c-b36f-2afdfd2116b559134c9a-2260-4dcc-afb7-b784e5ce8d73.jpg?preset=large-h');
+}
+
+#img-footer {
+    width: 150px;
+}
+
+footer {
+    padding: 90px 0;
+    /* position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem; */
+    background-color: #efefef;
+    text-align: center;
+}
+
+/* Cards */
